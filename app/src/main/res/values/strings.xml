@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LoginAppUI</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms &amp; conditions]]></string>
+</resources>
