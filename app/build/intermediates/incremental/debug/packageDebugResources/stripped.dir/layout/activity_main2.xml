@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:gravity="center"
+        android:text="Create an account"
+        android:textColor="@color/black"
+        android:textSize="40dp">
+
+    </TextView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/signEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="30dp"
+        android:paddingBottom="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="15dp">
+
+    </EditText>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/signPassword"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:hint="Enter your password"
+            android:textColorHint="@color/black">
+
+        </EditText>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:src="@drawable/password_eye">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="Login"
+        android:shadowColor="@color/black"
+        android:textColorHint="@color/white">
+
+    </Button>
+
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="-------------------------------------Or login with------------------------------------"
+        android:textColorHint="@color/black">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="44dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:background="#1FCBD0D3"
+                android:src="@drawable/google_">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Google"
+                android:textColor="@color/black"
+                android:textSize="30sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="47dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="70dp"
+                android:background="#1FCBD0D3"
+                android:src="@drawable/apple">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Apple"
+                android:textColor="@color/black"
+                android:textSize="30sp">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

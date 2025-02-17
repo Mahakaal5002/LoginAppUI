@@ -1,0 +1,6 @@
+com.example.loginappui.test.app-core-1.6.1-0 C:\Users\atulk\.gradle\caches\8.10.2\transforms\0b7c883f012355072ef9567136035fe5\transformed\core-1.6.1\res
+com.example.loginappui.test.app-tracing-1.2.0-1 C:\Users\atulk\.gradle\caches\8.10.2\transforms\e06d25edb48895909beb73e0ef25bb85\transformed\tracing-1.2.0\res
+com.example.loginappui.test.app-androidTest-2 C:\Users\atulk\AndroidStudioProjects\LoginAppUI\app\build\generated\res\resValues\androidTest\debug
+com.example.loginappui.test.app-mergeDebugAndroidTestResources-3 C:\Users\atulk\AndroidStudioProjects\LoginAppUI\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.loginappui.test.app-mergeDebugAndroidTestResources-4 C:\Users\atulk\AndroidStudioProjects\LoginAppUI\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.loginappui.test.app-debugAndroidTest-5 C:\Users\atulk\AndroidStudioProjects\LoginAppUI\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
