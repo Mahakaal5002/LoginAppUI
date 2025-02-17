@@ -57,9 +57,11 @@
     </LinearLayout>
 
     <EditText
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email"
+        android:inputType="textEmailAddress"
         android:paddingLeft="30dp"
         android:paddingBottom="20dp"
         android:textColorHint="@color/black"
@@ -74,10 +76,11 @@
         android:layout_marginTop="5dp">
 
         <EditText
-
+            android:id="@+id/password"
             android:layout_width="297dp"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:inputType="textPassword"
             android:hint="Enter your password"
             android:textColorHint="@color/black">
 

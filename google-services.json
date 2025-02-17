@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "602566085166",
+    "project_id": "login-4a47d",
+    "storage_bucket": "login-4a47d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602566085166:android:c000184d6be251a678adbf",
+        "android_client_info": {
+          "package_name": "com.example.loginappui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602566085166-8idv58oo9uflg3dca8dvbikt09b52ui0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC92pUiVwYDk3X81Fzh1mzexY2q5dT3Lrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602566085166-8idv58oo9uflg3dca8dvbikt09b52ui0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
